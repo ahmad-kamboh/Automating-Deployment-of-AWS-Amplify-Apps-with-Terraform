@@ -1,0 +1,28 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Crash logs
+crash.log
+
+# Ignore sensitive files
+*.tfvars
+
+# Ignore OS files
+.DS_Store
+
+# Node modules (if any)
+node_modules/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+
+# Ignore .terraform directories in submodules too
+**/.terraform/
+
+# Ignore shell history files
+*.sh~
